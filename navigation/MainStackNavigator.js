@@ -6,7 +6,7 @@ import HomeScreen from '../screens/Home';
 import DetailsScreen from '../screens/Details';
 
 
-
+      
 
 const Stack = createStackNavigator();
 
@@ -17,7 +17,7 @@ export default function MainStackNavigator() {
 
         <Stack.Screen name="Home"
          component={HomeScreen}
-         options={{title:'overview'}} />
+         options={{title:'Home'}} />
 
         <Stack.Screen name="Details"
          component={DetailsScreen} />
