@@ -20,7 +20,8 @@ export default function MainStackNavigator() {
          options={{title:'Home'}} />
 
         <Stack.Screen name="Details"
-         component={DetailsScreen} />
+         component={DetailsScreen} 
+         initialParams = {{itemId : 45}}/>
 
       </Stack.Navigator>
     </NavigationContainer>
